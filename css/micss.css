@@ -1,0 +1,36 @@
+body{
+	background-size: cover;
+	background: #000 url(../img/fondo.png) no-repeat  ;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@media only screen and (max-width: 767px) {
+
+body {
+
+background-image: url(../img/fondo.png);
+
+}
+@media (min-width: 480px) {
+    body {
+       background-image: url(../img/fondo.png);
+    }
+}
+
+}
+#container {
+
+}
+#ex2 img{
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+}
+#ex2 img:hover {
+height: 200px;
+width: 100px;
+
+}

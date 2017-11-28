@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+
+}
+a{
+  color: #D91139;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+#divContenedor{
+  position: absolute;
+  left: 30%;
+  margin-left: -203px;
+  top: 40px;
+  border: solid 0px #000;
+  width: 1000px;
+  text-align: center;
+  border-radius: 5px;
+  background: #000;
+  padding: 5px;
+  height: 520px;
+  box-shadow: 0 0 10px #333;
+}
+ul{
+  list-style: none;
+}
+ul li{
+  display: inline-block;
+  background: #303030;
+  padding: 44px;
+  margin: 6px;
+  width: 140px;
+  height:200px;
+  text-align: center;
+  border-radius: 3px;
+  border:solid 1px #333;
+  cursor: pointer;
+  color: #D91139;
+  font-size: 20px;
+  font-weight: bold;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+ul li:hover{
+  border-color: #D91139;
+}
+#divInicio{
+  background: #000 ;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  color: #fff;
+}
+#divInferior{
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+}
+
+#divInferior {
+  border: solid 1px #333;
+  border-radius: 3px;
+  padding: 5px;
+  background: #000;
+  color: #999;
+  cursor: pointer;
+}
+
+#divContador{
+  position: absolute;
+  bottom: -30px;
+  background: #D91139;
+  right: 0;
+  border-radius: 5px;
+}
+#divContador p{
+  padding: 5px;
+  color #fff;
+}
+p{
+ bottom: 10PX;
+ height: 50%;
+}
