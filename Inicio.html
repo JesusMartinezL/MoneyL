@@ -13,8 +13,28 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" type="text/css" href="css/micss.css">
+<link rel="stylesheet" href="css/alertify.min.css" />
+ 
+<link rel="stylesheet" href="css/themes/default.min.css" />
+ 
+<script src="js/alertify.min.js"></script>
+
+<script type="text/javascript">
+
+function acuerdos(){
+
+alertify.prompt("ACUERDOS & TERMINOS MONEYLAND","Este Juego ha sido desarrollado para la eduacacion financiera de los joveness, se solicita que se haga uso reponsable de esta APP, y exista un adulto al lado del usuario en su proceso educativo; Ahora el acuerdo final: Yo me comprometo a depositar en mi cuenta de ahorros mensualmente la cantidad de:", "$0.00",
+  function(evt, value ){
+    alertify.success('Ahorrar: ' + value);
+  },
+  function(){
+    alertify.error('Cancelar');
+  })
+  ;
+}
+</script> 
 </head>
-<body><br><br><br><br><br>
+<body onload="acuerdos()"><br><br><br><br><br>
 <div class="container">
 	<div class="row">
 		<div class="col-sm-12 col-md-12 col-lg-12">
